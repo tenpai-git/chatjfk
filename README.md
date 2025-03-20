@@ -10,6 +10,10 @@ This is a project to webscrape the JFK files released in 2025, OCR the documents
 
 Optional: tesseract if you're not using pytesseract in venv
 
+### Planned Dependencies
+
+`flask` `flask-cors` `qdrant-client` `vllm` `streamlit` `requests` `langchain` `transformers` `sentence-transformers` `qdrant-client`
+
 ## Downloading all the PDF Files 
 They Python3 file `scrapepdfs.py` will download all the PDF files for you. You need to set the page numbers when more files are released to get more as they come in. The initial release has 219 pages. 
 

@@ -1,5 +1,17 @@
 # jfkfilescanner
 This is a project to webscrape the JFK files released in 2025, OCR the documents with Tesseract, and qdrant vectordb for Retrieval-Augmented Generation of the data.
+
+## Dependencies
+### Python
+Python3.11 
+pytesseract
+beautifulsoup4
+tqdm
+
+### Bash
+popper-utils
+Optional: tesseract if you're not using pytesseract in venv
+
 ## Downloading all the PDF Files 
 They Python3 file `scrapepdfs.py` will download all the PDF files for you. You need to set the page numbers when more files are released to get more as they come in. The initial release has 219 pages. 
 

@@ -3,13 +3,11 @@ This is a project to webscrape the JFK files released in 2025, OCR the documents
 
 ## Dependencies
 ### Python
-Python3.11 
-pytesseract
-beautifulsoup4
-tqdm
+`Python3.11` `pytesseract` `beautifulsoup4` `tqdm`
 
 ### Bash
-popper-utils
+`popper-utils`
+
 Optional: tesseract if you're not using pytesseract in venv
 
 ## Downloading all the PDF Files 

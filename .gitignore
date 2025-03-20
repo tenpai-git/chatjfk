@@ -1,0 +1,61 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Virtual environment
+venv/
+.env/
+.envrc
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Pytest cache
+.pytest_cache/
+
+# MyPy cache
+.mypy_cache/
+
+# Coverage reports
+htmlcov/
+.coverage
+*.cover
+.hypothesis/
+
+# Logs and databases
+*.log
+*.sqlite3
+*.db
+*.sqlite
+
+# IDE / editor settings
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-workspace
+
+# Docker
+*.dockerfile
+docker-compose.override.yml
+
+# Local environment-specific files
+.env.local
+.env.production
+.env.development
+
+# PDF Files
+jfk_pdfs/*
